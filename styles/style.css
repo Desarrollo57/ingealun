@@ -354,7 +354,7 @@ header .navbar{
     padding: 12px;
     resize: vertical;
 }
-.contact-section .contact-form .submit-button{
+.contact-section .contact-form .submit-button, .contact-section .contact-info-list .contact-info .submit-button{
     padding: 10px 26px;
     margin-top: 10px;
     color: var(--white-color);
@@ -365,7 +365,7 @@ header .navbar{
     border: 1px solid var(--primary-color);
     transition: 0.3s ease;
 }
-.contact-section .contact-form .submit-button:hover{
+.contact-section .contact-form .submit-button:hover, .contact-section .contact-info-list .contact-info .submit-button:hover{
     color: var(--primary-color);
     background: transparent;
 }
